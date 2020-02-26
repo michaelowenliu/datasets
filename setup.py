@@ -153,7 +153,7 @@ all_dataset_extras = list(itertools.chain.from_iterable(
 EXTRAS_REQUIRE = {
     'apache-beam': ['apache-beam'],
     'matplotlib': ['matplotlib'],
-    'tensorflow': ['tensorflow>=1.15.0'],
+    'tensorflow': ['tensorflow>=2.1.0'],
     'tensorflow_gpu': ['tensorflow-gpu>=1.15.0'],
     # Tests dependencies are installed in ./oss_scripts/oss_pip_install.sh
     # and run in ./oss_scripts/oss_tests.sh
